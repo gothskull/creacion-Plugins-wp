@@ -106,7 +106,7 @@
 				'show_tagcloud'     => true,
 				'show_ui'           => true,
 				'query_var'         => true,
-				'rewrite'           => array('slug' => 'Trabajoo'),
+				'rewrite'           => array('slug' => 'Trabajo'),
 				'query_var'         => true,
 				'capabilities'      => array(),
 			);

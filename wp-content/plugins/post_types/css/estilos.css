@@ -1,0 +1,13 @@
+#custom-type_list{
+	margin: 0;
+}
+#custom-type-list li{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #f7f7f7;
+	max-width: 400px;
+	padding: 10px;
+}
+#loading-animation{
+	display: none;
+}
