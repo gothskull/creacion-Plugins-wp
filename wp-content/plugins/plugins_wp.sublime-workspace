@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"correo"
+			],
+			[
 				"esc",
 				"esc_html__"
 			],
@@ -14,10 +18,6 @@
 			[
 				"wp_sen",
 				"wp_send_json_success"
-			],
-			[
-				"c",
-				"counter"
 			],
 			[
 				"wp_upd",
@@ -283,7 +283,16 @@
 			"file": "post_types/post_types.php",
 			"settings":
 			{
-				"buffer_size": 5522,
+				"buffer_size": 5527,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "plugins_en_panel/anadir_en_panel.php",
+			"settings":
+			{
+				"buffer_size": 2948,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -292,24 +301,42 @@
 			"file": "post_types/content_post_type.php",
 			"settings":
 			{
-				"buffer_size": 3601,
+				"buffer_size": 3600,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "post_types/js/reordenar.js",
+			"file": "agregando_en_panel/practica_add_panel.php",
 			"settings":
 			{
-				"buffer_size": 1016,
+				"buffer_size": 1882,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "post_types/shortcode.php",
+			"file": "agregando_en_panel/includes/add_certificado.php",
 			"settings":
 			{
-				"buffer_size": 1227,
+				"buffer_size": 379,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "agregando_en_panel/add_in_panel.php",
+			"settings":
+			{
+				"buffer_size": 2549,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Certificado CRSAS/certificdos_retie.php",
+			"settings":
+			{
+				"buffer_size": 654,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -382,11 +409,23 @@
 	"expanded_folders":
 	[
 		"/C/xampp/htdocs/plugins/wp-content/plugins",
-		"/C/xampp/htdocs/plugins/wp-content/plugins/post_types",
-		"/C/xampp/htdocs/plugins/wp-content/plugins/removiendo_widget"
+		"/C/xampp/htdocs/plugins/wp-content/plugins/agregando_en_panel",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/agregando_en_panel/img",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/agregando_en_panel/includes",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/Certificado CRSAS",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/meta_boxes/js",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/post_types"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/plugins/wp-content/plugins/agregando_en_panel/add_certificado.php",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/agregando_en_panel/includes/add_certificado.php",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/post_types/shortcode.php",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/post_types/js/reordenar.js",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/Certificado CRSAS/includes/add_certificado.php",
+		"/C/Users/SirGothSkull/Downloads/TMP/form sin plugins wordpress/includes/class-contactform.php",
+		"/C/Users/SirGothSkull/Downloads/TMP/form sin plugins wordpress/includes/contact-template.php",
+		"/C/xampp/htdocs/plugins/wp-content/plugins/Certificado CRSAS/uninstall.php",
 		"/C/xampp/htdocs/plugins/wp-content/plugins/meta_boxes/add_metaboxes.php",
 		"/C/xampp/htdocs/plugins/wp-content/plugins/meta_boxes/js/quick_tag.js",
 		"/C/xampp/htdocs/plugins/wp-content/plugins/meta_boxes/js/myjava_metabox.js",
@@ -506,19 +545,11 @@
 		"/C/xampp/htdocs/curso_codeigniter_TP/head.php",
 		"/C/xampp/htdocs/curso_codeigniter_TP/bower.json",
 		"/C/xampp/htdocs/curso_codeigniter_TP/.bowerrc",
-		"/C/xampp/htdocs/curso_codeigniter_TP/footer.php",
-		"/C/xampp/htdocs/nva_biblioteca/index.php",
-		"/C/xampp/htdocs/curso_codeigniter_TP/css/estilo.css",
-		"/C/Users/SirGothSkull/app/bower_components/dropzone/dist/dropzone.css",
-		"/C/Users/SirGothSkull/app/bower.json",
-		"/C/xampp/htdocs/nva_biblioteca/tema original/form-fileupload.html",
-		"/C/xampp/htdocs/nva_biblioteca/tema original/form-components.html",
-		"/C/xampp/htdocs/nva_biblioteca/application/views/parametrizacion/estado/crear.php",
-		"/C/xampp/htdocs/nva_biblioteca/application/models/parametrizacion/perfil_model.php"
+		"/C/xampp/htdocs/curso_codeigniter_TP/footer.php"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -538,6 +569,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Inicializar_plugin",
+			"Plugin Bi",
+			"add_menu_page",
+			"Plugin Bision",
+			"nombre",
 			" =>",
 			"search",
 			"Usuario",
@@ -660,12 +696,7 @@
 			"estado",
 			"perfil",
 			"telefono",
-			"correo",
-			"contrasena",
-			"apellidos",
-			"nombre",
-			"seguridad",
-			"button"
+			"correo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -683,7 +714,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -692,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5522,
+						"buffer_size": 5527,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								545,
-								545
+								2322,
+								4140
 							]
 						],
 						"settings":
@@ -710,27 +741,27 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3021.0,
+						"translation.y": 1944.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "post_types/content_post_type.php",
+					"file": "plugins_en_panel/anadir_en_panel.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3601,
+						"buffer_size": 2948,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2222,
-								2246
+								823,
+								873
 							]
 						],
 						"settings":
@@ -739,33 +770,120 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1197.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "post_types/js/reordenar.js",
+					"file": "post_types/content_post_type.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1016,
+						"buffer_size": 3600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "agregando_en_panel/practica_add_panel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "agregando_en_panel/includes/add_certificado.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "agregando_en_panel/add_in_panel.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								531
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -776,36 +894,41 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "post_types/shortcode.php",
+					"buffer": 6,
+					"file": "Certificado CRSAS/certificdos_retie.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1227,
+						"buffer_size": 654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								646,
-								646
+								463,
+								463
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 342.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"file": "agregando_en_panel/img/icon.png",
+					"semi_transient": true,
+					"stack_index": 3,
+					"type": "image"
+				},
+				{
+					"buffer": 7,
 					"file": "post_types/css/estilos.css",
 					"semi_transient": false,
 					"settings":
@@ -829,7 +952,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -915,7 +1038,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 212.0,
 	"status_bar_visible": true,
 	"template_settings":

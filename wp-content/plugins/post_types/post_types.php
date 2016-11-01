@@ -34,6 +34,8 @@ if (!function_exists("bision_admin_enqueue")) {
 		global $pagenow, $typenow;
 		// var_dump($typenow);
 		// exit();
+		// var_dump($pagenow);
+		// exit();
 		$screen = get_current_screen();
 		// var_dump($screen->post_type);
 		// exit();
@@ -59,13 +61,14 @@ if (!function_exists("bision_admin_enqueue")) {
 
 	}
 }
+ add_action('admin_enqueue_scripts','bision_admin_enqueue' );
+ 
 /*
 =========================================================================
             AGREGAR SUBMENU OPTIONS
 =========================================================================
 */
 
- add_action('admin_enqueue_scripts','bision_admin_enqueue' );
 
  if (!function_exists("bision_add_submenu_page")) {
  	

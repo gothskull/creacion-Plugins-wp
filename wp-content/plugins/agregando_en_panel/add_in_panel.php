@@ -17,7 +17,7 @@
  	
  	function Inicializar_plugin(){
  
- 		add_menu_page( 'Titulo de la pagina','Plugin Bision', 'manage_options','slug','add_to_panel',plugin_dir_url(__FILE__).'img/icon.png','20' );
+ 		add_menu_page( 'Titulo de la pagina','Plugin Bision', 'manage_options','plug_bis','add_to_panel',plugin_dir_url(__FILE__).'img/icon.png','20' );
  		
  	}
 
