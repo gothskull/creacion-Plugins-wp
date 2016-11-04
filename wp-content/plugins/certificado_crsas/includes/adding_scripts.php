@@ -6,7 +6,8 @@
 */
 	if (!function_exists("bision_adding_scripts_new")) {
 		
-		function bision_adding_scripts_new(){
+		function bision_adding_scripts_new()
+		{
 	
 			global $pagenow, $post;
 			// var_dump($pagenow);//En este caso es = admin.php
@@ -16,7 +17,7 @@
 
 
 			if ($pagenow == 'admin.php') {
-				wp_enqueue_style( 'style_new', plugins_url('/css/estilo.css',__FILE__));
+				wp_enqueue_style( 'style_new', plugins_url('../css/estilo.css',__FILE__));
 			}
 
 	

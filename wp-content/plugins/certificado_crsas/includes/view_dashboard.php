@@ -10,7 +10,8 @@ require_once(plugin_dir_path(__FILE__ ).'insert_data.php');
  
 	 if (!function_exists("bision_add_new_html")) {
   	
-  	function bision_add_new_html(){
+  	function bision_add_new_html()
+    {
   
   		?>
 

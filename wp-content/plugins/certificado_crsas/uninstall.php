@@ -5,7 +5,8 @@
     }
     if (!function_exists("bision_uninstall_certificados")) {
     	
-    	function bision_uninstall_certificados(){
+    	function bision_uninstall_certificados()
+        {
     
     		global $wpdb;
 

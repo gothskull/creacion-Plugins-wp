@@ -7,7 +7,8 @@
 	 	
 	 if (!function_exists("bision_certificados_init")) {
 	 	
-	 	function bision_certificados_init(){
+	 	function bision_certificados_init()
+	 	{
 	 
 	 		global $wpdb;
 	 		$tabla = $wpdb->prefix."certificados";

@@ -16,7 +16,7 @@
 
 
 			if ($pagenow == 'admin.php') {
-				wp_enqueue_style( 'bision_style', plugins_url('../css/estilos.css',__FILE__) );
+				// wp_enqueue_style( 'bision_style', plugins_url('../css/estilos.css',__FILE__) );
 			}
 
 	
