@@ -70,6 +70,7 @@ $table_prefix  = 'plugins_';
  * en sus entornos de desarrollo.
  */
 define('WP_DEBUG', false);
+define( 'WP_MEMORY_LIMIT', '256M' );
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 

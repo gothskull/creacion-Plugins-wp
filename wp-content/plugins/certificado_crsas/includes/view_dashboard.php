@@ -1,6 +1,7 @@
 <?php 
  
 require_once(plugin_dir_path(__FILE__ ).'insert_data.php');
+$action = $_GET['action'];
 
  /*
  =========================================================================
@@ -8,7 +9,8 @@ require_once(plugin_dir_path(__FILE__ ).'insert_data.php');
  =========================================================================
  */
  
-	 if (!function_exists("bision_add_new_html")) {
+	 if (!function_exists("bision_add_new_html")) 
+   {
   	
   	function bision_add_new_html()
     {
@@ -16,7 +18,7 @@ require_once(plugin_dir_path(__FILE__ ).'insert_data.php');
   		?>
 
   		<div class="wrap">
-  			<h2>Certificados CRSAS</h2>
+  			<h2>Crear Nuevo Certificado</h2>
   			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut vero magni, nisi.</p>
 
 
@@ -24,14 +26,14 @@ require_once(plugin_dir_path(__FILE__ ).'insert_data.php');
 
   				<?php settings_fields('grupo_oct'); ?>
   				<?php @do_settings_fields('grupo_oct'); ?>
-
+          
   				<table class="form-table">
 
   					<tbody>
   						<tr valign="top">
   							<th scope="row">Dictamen</th>
   							<td>
-  								*<input type="text" class="widefat form-field" name="dictamen" value="<?php echo esc_attr(get_option('dictamen')) ?>">
+  								*<input type="text" class="widefat form-field" name="dictamen" value="<?php echo $action == 'edit' ? 'si es asi' : '' ?>">
   							</td>
   						</tr>
               <tr>

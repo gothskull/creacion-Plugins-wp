@@ -4,7 +4,8 @@
             FUNCION PARA AGREGAR SCRIPTS JS Y ESTILOS CSS
 =========================================================================
 */
-	if (!function_exists("bision_adding_scripts_new")) {
+	if (!function_exists("bision_adding_scripts_new")) 
+	{
 		
 		function bision_adding_scripts_new()
 		{
@@ -16,7 +17,8 @@
 			// exit();
 
 
-			if ($pagenow == 'admin.php') {
+			if ($pagenow == 'admin.php') 
+			{
 				wp_enqueue_style( 'style_new', plugins_url('../css/estilo.css',__FILE__));
 			}
 

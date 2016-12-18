@@ -5,7 +5,8 @@
 	 =========================================================================
 	 */
 	 	
-	 if (!function_exists("bision_certificados_init")) {
+	 if (!function_exists("bision_certificados_init")) 
+	 {
 	 	
 	 	function bision_certificados_init()
 	 	{
@@ -13,7 +14,8 @@
 	 		global $wpdb;
 	 		$tabla = $wpdb->prefix."certificados";
 
-	 		if ($wpdb->get_var('SHOW TABLES LIKE '.$tabla) !=$tabla) {
+	 		if ($wpdb->get_var('SHOW TABLES LIKE '.$tabla) !=$tabla) 
+	 		{
 	 			
 	 			$sql = "CREATE TABLE IF NOT EXISTS ".$tabla."(
 	 			     id             INTEGER (10)  UNSIGNED AUTO_INCREMENT,
